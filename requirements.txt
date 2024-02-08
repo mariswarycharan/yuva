@@ -1,10 +1,2 @@
 streamlit
-openai
-nltk
-pypdf
-sentence_transformers
-llama_index
-transformers 
-accelerate 
-langchain 
-bitsandbytes
+
