@@ -1,5 +1,10 @@
 streamlit
 openai
-llama-index
 nltk
 pypdf
+sentence_transformers
+llama_index
+transformers 
+accelerate 
+langchain 
+bitsandbytes
