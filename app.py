@@ -1,13 +1,4 @@
 import streamlit as st
-from llama_index import VectorStoreIndex, ServiceContext, Document
-from llama_index.llms import HuggingFaceLLM
-import openai
-from llama_index import SimpleDirectoryReader
-from llama_index.prompts.prompts import SimpleInputPrompt
-from langchain.embeddings.huggingface import HuggingFaceEmbeddings
-from llama_index import ServiceContext
-from llama_index.embeddings import LangchainEmbedding
-
 
 st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
